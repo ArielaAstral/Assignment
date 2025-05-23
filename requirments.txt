@@ -1,0 +1,6 @@
+base64
+json
+requests
+hashlib
+hmac
+tabulate
