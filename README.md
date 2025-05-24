@@ -1,4 +1,16 @@
-# Assignment
+A Python program to Scrape the below-mentioned site and bring in the list of the first 6 projects under the “Projects Registered” heading containing the following fields in their detail pages (click on View Details to see the detail): Rera Regd. No, Project Name, Promoter Name (Company Name under Promoter Details Tab), Address of the Promoter (Registered Office Address under Promoter Details Tab), GST No.
+(https://rera.odisha.gov.in/projects/project-list)
+
+This project primarily uses a backend to retrieve data about projects and promoters, then combines that data to generate the desired output.
+# Step 1: Install Dependencies :Install the required Python packages by running:
+```
+pip install -r requirments.txt
+```
+# Step 2: Run the Application :Once all dependencies are installed, you can start the program by executing:
+```
+python main.py
+```
+# Output
 
 ```
 +------------------+------------------------+-------------------------------------------------+----------------------------------------------------------------------------------------------------------+-----------------+
